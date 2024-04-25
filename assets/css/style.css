@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 1rem 1rem;
+  background-color: #ffffff;
+  font-size: 0.9rem;
+}
+@font-face {
+  font-family: "Nixie";
+  src: url(../fonts/Nixie_One/NixieOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "AlegSans";
+  src: url(../fonts/Alegreya_Sans/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "AlegSC";
+  src: url(../fonts/Alegreya_SC/AlegreyaSC-Medium.ttf);
+}
+
+body {
+  font-family: "Inter";
+}
+
+h2 {
+  font-family: "AlegSans";
+  font-size: 1.6rem;
+  color: #3a4f52;
+}
+
+h3 {
+  font-family: "AlegSans";
+  font-size: 1.5rem;
+  color: #3a4f52;
+}
+
+.btn-view {
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  color: #3a4f52;
+  border: solid 1px #3a4f52;
+}
+
+.btn-view:hover {
+  background-color: #3a4f52;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #2b3e51;
+  color: white;
+  height: 9rem;
+}
+
+footer p {
+  padding: 4rem 10rem;
+}
+
+/* ! Christian */
+
+/* Header */
+/* Navbar */
+/* Our latest Works */
+/* Our Services */
+
+/* ! Julian */
+
+/* From The Blog */
+/* Testimonials */
+/* Contact */
+/* Footer */
