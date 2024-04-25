@@ -243,7 +243,7 @@ nav {
 .img6:hover {
   background-color: #02383abc;
   background-blend-mode: overlay;
-
+  transition-duration: 1s;
   transform: scale(1.5);
 
   .gallery-btn {
