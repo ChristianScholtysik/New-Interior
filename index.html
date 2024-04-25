@@ -9,8 +9,8 @@
   <body>
     <header>
       <nav>
-        <h2>New Interior</h2>
-        <img src="" alt="" />
+        <h2 class="logo">New Interior</h2>
+        <img src="./assets/img/burger.png" alt="" />
       </nav>
       <section class="hero">
         <h1>Slim & Stylish</h1>
@@ -19,8 +19,8 @@
     </header>
     <!-- Our Latest Works -->
     <main>
-      <section class="works">
-        <div>
+      <section>
+        <div class="works">
           <div class="text-wrap">
             <h2>Our Latest Works</h2>
             <p>Take a look at some of our recent products</p>
@@ -28,21 +28,28 @@
           <button class="btn-view">View All</button>
         </div>
         <div class="gallery">
-          <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
-            src=""
-            alt="" /><img src="" alt="" /><img src="" alt="" />
+          <div class="row">
+            <img src="./assets/img/bild1.png" alt="" />
+            <img src="./assets/img/bild2.png" alt="" />
+            <img src="./assets/img/bild3.png" alt="" />
+          </div>
+          <div class="row">
+            <img src="./assets/img/bild4.png" alt="" />
+            <img src="./assets/img/bild6.png" alt="" />
+            <img src="./assets/img/bild7.png" alt="" />
+          </div>
         </div>
       </section>
       <!-- Our Service -->
       <section class="service">
         <div class="layer-frame">
-          <div>
+          <div class="layer-top">
             <h2>Our Services</h2>
             <p>A little about what we do</p>
           </div>
-          <div>
-            <div>
-              <img src="" alt="" />
+          <div class="icons">
+            <div class="icon_solo">
+              <img src="./assets/img/Icon1.svg" alt="" />
               <h3>Concepts</h3>
               <p>
                 In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
@@ -50,8 +57,8 @@
                 eget ultricies sit amet, hendrerit in lorem.
               </p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div class="icon_solo">
+              <img src="./assets/img/Icon2.svg" alt="" />
               <h3>Colors</h3>
               <p>
                 In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
@@ -59,8 +66,8 @@
                 eget ultricies sit amet, hendrerit in lorem.
               </p>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div class="icon_solo">
+              <img src="./assets/img/Icon3.svg" alt="" />
               <h3>Illustration</h3>
               <p>
                 In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
@@ -72,9 +79,10 @@
         </div>
       </section>
       <!-- From The Blog -->
-      <section>
-        <div>
-          <div class="text-wrap">
+      <!-- From The Blog -->
+      <section class="blog">
+        <div class="blog1">
+          <div class="text-wrap1">
             <h2>From the Blog</h2>
             <p>Keep up with the latest happenings.</p>
           </div>
@@ -82,7 +90,7 @@
         </div>
         <div class="gallery-blog">
           <div>
-            <img src="" alt="" />
+            <img src="./assets/img/bild8.png" alt="stuhlblau" />
             <h3>Design Your Mind</h3>
             <p>3 Nov, 2014</p>
             <p>
@@ -93,7 +101,7 @@
             <a href="">Read More</a>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="./assets/img/bild9.png" alt="" />
             <h3>Winter Is Coming</h3>
             <p>3 Nov, 2014</p>
             <p>
@@ -104,7 +112,7 @@
             <a href="">Read More</a>
           </div>
           <div>
-            <img src="" alt="" />
+            <img src="./assets/img/bild10.png" alt="" />
             <h3>The Illustration</h3>
             <p>3 Nov, 2014</p>
             <p>
@@ -127,59 +135,68 @@
             </p>
             <button>Get a free quote</button>
           </div>
+        </div>
+        <div class="test-top">
           <h2>Testimonials</h2>
           <p>Some happy customers have to say.</p>
         </div>
         <div class="test-wrap">
-          <div>
-            <img src="" alt="" />
+          <div class="personwrap">
+            <img src="./assets/img/person1.png" alt="mann1" />
             <p>
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
               vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
               ultricies sit amet, hendrerit in lorem.
             </p>
-            <p>John Doe Head of Ideas, Technext</p>
+            <p>
+              <b>John Doe</b> <br />
+              Head of Ideas, Technext
+            </p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="personwrap">
+            <img src="./assets/img/person2.png" alt="frau" />
             <p>
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
               vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
               ultricies sit amet, hendrerit in lorem.
             </p>
-            <p>Jane Doe CEO, Apple Inc</p>
+            <p><b>Jane Doe</b><br />CEO, Apple Inc</p>
           </div>
-          <div>
-            <img src="" alt="" />
+          <div class="personwrap">
+            <img src="./assets/img/person3.png" alt="mann2" />
             <p>
               In at accumsan risus. Nam id volutpat ante. Etiam vel mi mattis,
               vulputate nunc nec, sodales nibh. Etiam nulla magna, gravida eget
               ultricies sit amet, hendrerit in lorem.
             </p>
-            <p>Albert Doe Team Lead, Design Studio</p>
+            <p>
+              <b>Albert Doe </b> <br />
+              Team Lead, Design Studio
+            </p>
           </div>
         </div>
       </section>
       <!-- Contact -->
-      <section class="Contact"></section>
-      <div class="contact-wrap">
-        <div>
-          <h2>Contact Us</h2>
-          <p>Feel free to drop us a line.</p>
+      <section class="contact">
+        <div class="contact-wrap">
+          <div class="contact-top">
+            <h2>Contact Us</h2>
+            <p>Feel free to drop us a line.</p>
+          </div>
+          <div>
+            <form action="">
+              <input type="text" placeholder="Your Name" required /><input
+                type="mail"
+                placeholder="Enter Email"
+                required /><input
+                type="text"
+                placeholder="Write Something"
+                required />
+              <button type="submit " class="submit">Say Hello</button>
+            </form>
+          </div>
         </div>
-        <div>
-          <form action="">
-            <input type="text" placeholder="Your Name" required /><input
-              type="mail"
-              placeholder="Enter Email"
-              required /><input
-              type="text"
-              placeholder="Write Something"
-              required />
-            <button type="submit">Say Hello</button>
-          </form>
-        </div>
-      </div>
+      </section>
     </main>
 
     <footer>

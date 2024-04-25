@@ -10,8 +10,8 @@ img {
 
 body {
   margin: 1rem 1rem;
-  background-color: #ffffff;
-  font-size: 0.9rem;
+  background-color: #f1f0f0;
+  font-size: 1.1rem;
 }
 @font-face {
   font-family: "Nixie";
@@ -20,6 +20,11 @@ body {
 @font-face {
   font-family: "Inter";
   src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url(../fonts/Inter/static/Inter-Bold.ttf);
 }
 
 @font-face {
@@ -38,21 +43,27 @@ body {
 
 h2 {
   font-family: "AlegSans";
-  font-size: 1.6rem;
+  font-size: 2.8rem;
   color: #3a4f52;
+}
+
+b {
+  font-family: "InterBold";
 }
 
 h3 {
   font-family: "AlegSans";
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #3a4f52;
 }
 
 .btn-view {
   padding: 1rem 2rem;
-  background-color: #ffffff;
+  background-color: #f1f0f0;
   color: #3a4f52;
   border: solid 1px #3a4f52;
+  font-size: 1.1rem;
+  margin: 2rem 0;
 }
 
 .btn-view:hover {
@@ -60,6 +71,222 @@ h3 {
   color: #ffffff;
 }
 
+/* ! Christian */
+
+/* Header */
+/* Navbar */
+header {
+  height: 100vh;
+  background-image: url(../img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4rem;
+}
+
+.logo {
+  font-family: "AlegSC";
+  font-size: 2rem;
+  color: white;
+}
+
+/* HERO */
+
+.hero {
+  height: 80vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-family: "Nixie";
+  font-size: 6rem;
+  font-weight: 50;
+}
+
+.hero p {
+  font-family: "AlegSC";
+  font-size: 2rem;
+  font-weight: 100;
+  opacity: 0.5;
+}
+
+/* Our latest Works */
+.works {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 10rem;
+}
+.text-wrap {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.text-wrap p {
+  color: #6a6a6a;
+}
+
+.gallery {
+  margin: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.row {
+  display: flex;
+  gap: 3rem;
+}
+
+.row img {
+  width: 30vw;
+}
+/* Our Services */
+.service {
+  background-image: url(../img/kam-idris-_HqHX3LBN18-unsplash.jpg);
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  margin: 6rem 0;
+}
+.layer-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsla(210, 31%, 24%, 0.327);
+  margin: 10rem 10rem;
+  height: 50vh;
+}
+
+.layer-top {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
+.layer-top h2 {
+  font-family: "AlegSans";
+  font-size: 2.6rem;
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 3rem;
+  text-align: center;
+}
+.icons h3 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.icons p {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.icon_solo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+}
+
+/* Contact */
+
+.contact {
+  background-image: url(../img/footer.png);
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  margin: 6rem 0 0 0;
+}
+
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(210, 31%, 24%, 0.327);
+  margin: 6rem 10rem;
+  height: 50vh;
+  width: 100%;
+}
+
+.contact-top {
+  color: #f1f0f0;
+  margin-bottom: 4rem;
+}
+
+.contact-top h2 {
+  color: #f1f0f0;
+}
+
+form {
+  width: 45vw;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 30vw;
+  padding: 1rem 2rem;
+  color: #f1f0f0;
+  border: solid #f1f0f0 2px;
+  background: none;
+  border-radius: 8px;
+}
+
+.submit {
+  font-size: 1.1rem;
+  width: 8vw;
+  padding: 1rem 2rem;
+  color: #f1f0f0;
+  border: solid #f1f0f0 2px;
+  background: none;
+}
+
+.submit:hover {
+  font-size: 1.1rem;
+  width: 8vw;
+  padding: 1rem 2rem;
+  color: #3a4f52;
+  border: solid #3a4f52 2px;
+  background-color: #f1f0f0;
+}
+
+::placeholder {
+  font-size: 1.1rem;
+  color: #f1f0f0;
+}
+
+/* Footer */
 footer {
   background-color: #2b3e51;
   color: white;
@@ -70,16 +297,132 @@ footer p {
   padding: 4rem 10rem;
 }
 
-/* ! Christian */
-
-/* Header */
-/* Navbar */
-/* Our latest Works */
-/* Our Services */
-
 /* ! Julian */
 
 /* From The Blog */
+
+.blog1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 2rem 10rem;
+}
+
+.gallery-blog {
+  display: flex;
+  margin: 2rem 10rem;
+  gap: 1.5rem;
+}
+
+.text-wrap1 {
+  line-height: 2.5rem;
+}
+
+.gallery-blog div h3,
+p {
+  margin-bottom: 0.8rem;
+}
+
+.gallery-blog h3 {
+  margin-top: 0.5rem;
+  color: #3a4f52;
+}
+
+.gallery-blog p {
+  color: #6a6a6a;
+}
+
+.gallery-blog a {
+  text-decoration: none;
+  color: #4da7ca;
+}
+
+.gallery-blog img {
+  width: 30vw;
+}
+
 /* Testimonials */
+
+.bg-test {
+  background-image: url(../img/toa-heftiba-FV3GConVSss-unsplash.jpg);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.testlayer {
+  height: 30vh;
+  padding: 0.8rem 0.8rem;
+  background-color: hsla(210, 31%, 24%, 0.327);
+  margin: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.testlayer p {
+  /* width: 50vw;
+    height: 5vh;
+     */
+  margin-bottom: 5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 2.8rem;
+  font-family: "AlegSans";
+}
+
+.testlayer button {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1.2rem;
+  width: 12vw;
+  font-size: 1.2rem;
+}
+
+.test-wrap {
+  display: flex;
+  margin: 0 10rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.test-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #6a6a6a;
+}
+
+.personwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30vw;
+  text-align: center;
+  color: #6a6a6a;
+}
+
+.personwrap img {
+  margin-bottom: 1rem;
+}
+
+.bold {
+  font-family: "Inter";
+  font-weight: 600;
+}
+
 /* Contact */
 /* Footer */
