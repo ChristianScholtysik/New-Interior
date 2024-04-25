@@ -145,18 +145,11 @@ nav {
 .row {
   display: flex;
   gap: 3rem;
-  overflow: hidden;
 }
 
 .row img {
   width: 30vw;
 }
-
-/* .container {
-  overflow: hidden;
-
-  width: 30vw;
-} */
 
 .container {
   position: relative;
@@ -164,41 +157,102 @@ nav {
   width: 30vw;
 }
 
+.gallery-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .img1 {
   height: 30vh;
   object-fit: cover;
+  background-image: url(../img/bild1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.img1:hover {
-  transform: scale(1.5); /* Scale the image on hover */
-  filter: sepia() hue-rotate(150deg) saturate(120%); /* Apply filter effect */
+.img2 {
+  height: 30vh;
+  object-fit: cover;
+  background-image: url(../img/bild2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.img1:hover + .btn-lorem {
+.img3 {
+  height: 30vh;
+  object-fit: cover;
+  background-image: url(../img/bild3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img4 {
+  height: 30vh;
+  object-fit: cover;
+  background-image: url(../img/bild4.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img5 {
+  height: 30vh;
+  object-fit: cover;
+  background-image: url(../img/bild6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.img6 {
+  height: 30vh;
+  object-fit: cover;
+  background-image: url(../img/bild7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .img1:hover {
+  transform: scale(1.5);
+  filter: sepia() hue-rotate(150deg) saturate(120%);
+}
+.img1:hover + .gallery-btn {
   display: flex;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1.5); /* Center the button and scale it */
-}
+  transform: translate(-50%, -50%) scale(1.5);
+} */
 
-.btn-lorem {
-  color: white;
+.gallery-btn {
   display: none;
-  align-items: center; /* Align content vertically */
-  justify-content: center;
-  padding: 1rem 2rem;
-  background-color: #f1f0f0;
-  color: #3a4f52;
-  border: solid 1px #3a4f52;
-  font-size: 1.1rem;
-  margin: 2rem 0;
+  padding: 2% 3%;
+  color: white;
+  background-color: Transparent;
+  border: 1px solid white;
 }
 
-.btn-lorem:hover {
-  display: flex;
-  background-color: #3a4f52;
-  color: #ffffff;
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover {
+  background-color: #02383abc;
+  background-blend-mode: overlay;
+
+  transform: scale(1.5);
+
+  .gallery-btn {
+    display: flex;
+  }
+}
+.gallery-btn:hover {
+  color: #3a4f52;
+  background-color: white;
 }
 
 /* Our Services */
