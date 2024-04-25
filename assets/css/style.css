@@ -145,11 +145,62 @@ nav {
 .row {
   display: flex;
   gap: 3rem;
+  overflow: hidden;
 }
 
 .row img {
   width: 30vw;
 }
+
+/* .container {
+  overflow: hidden;
+
+  width: 30vw;
+} */
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 30vw;
+}
+
+.img1 {
+  height: 30vh;
+  object-fit: cover;
+}
+
+.img1:hover {
+  transform: scale(1.5); /* Scale the image on hover */
+  filter: sepia() hue-rotate(150deg) saturate(120%); /* Apply filter effect */
+}
+
+.img1:hover + .btn-lorem {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.5); /* Center the button and scale it */
+}
+
+.btn-lorem {
+  color: white;
+  display: none;
+  align-items: center; /* Align content vertically */
+  justify-content: center;
+  padding: 1rem 2rem;
+  background-color: #f1f0f0;
+  color: #3a4f52;
+  border: solid 1px #3a4f52;
+  font-size: 1.1rem;
+  margin: 2rem 0;
+}
+
+.btn-lorem:hover {
+  display: flex;
+  background-color: #3a4f52;
+  color: #ffffff;
+}
+
 /* Our Services */
 .service {
   background-image: url(../img/kam-idris-_HqHX3LBN18-unsplash.jpg);
@@ -161,6 +212,7 @@ nav {
   justify-content: center;
   background-position: center;
   margin: 6rem 0;
+  background-attachment: fixed;
 }
 .layer-frame {
   display: flex;
@@ -223,6 +275,7 @@ nav {
   display: flex;
   justify-content: center;
   margin: 6rem 0 0 0;
+  background-attachment: fixed;
 }
 
 .contact-wrap {
@@ -353,6 +406,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-attachment: fixed;
 }
 
 .testlayer {
@@ -386,6 +440,11 @@ p {
   padding: 1.2rem;
   width: 12vw;
   font-size: 1.2rem;
+}
+
+.testlayer button:hover {
+  color: #6a6a6a;
+  background-color: white;
 }
 
 .test-wrap {
