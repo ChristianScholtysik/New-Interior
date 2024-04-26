@@ -1,7 +1,7 @@
 # New-Interior
 
 > A website project about media querries
-> Live demo [_here_](https://www.example.com).
+> Live demo [_here_](https://christianscholtysik.github.io/New-Interior).
 
 ## Table of Contents
 
@@ -18,7 +18,7 @@ CSS
 
 ## Screenshots
 
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./assets/img/New-Interior.png)
 
 ## Contact
 
