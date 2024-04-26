@@ -6,7 +6,6 @@
 
 ## Table of Contents
 
-- [General Info](#general-information)
 - [Technologies Used](#technologies-used)
 - [Screenshots](#screenshots)
 - [Contact](#contact)
@@ -21,9 +20,9 @@ CSS
 
 DESKTOP-Version
 ![Example screenshot](./assets/img/New-Interior.png)
-TABLET_Version
+TABLET-Version
 ![Example screenshot](./assets/img/New-Interior2.png)
 
 ## Contact
 
-Created by Julian & Christian
+Created by Julian (https://github.com/JulianSupercode) & Christian (https://github.com/ChristianScholtysik)
