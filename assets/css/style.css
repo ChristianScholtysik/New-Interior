@@ -43,7 +43,7 @@ body {
 
 h2 {
   font-family: "AlegSans";
-  font-size: 2.8rem;
+  font-size: 2.8rem !important;
   color: #3a4f52;
 }
 
@@ -78,6 +78,7 @@ a:hover {
 .btn-view:hover {
   background-color: #3a4f52;
   color: #ffffff;
+  cursor: pointer;
 }
 
 /* ! Christian */
@@ -385,6 +386,7 @@ input {
   color: #3a4f52;
   border: solid #3a4f52 2px;
   background-color: #f1f0f0;
+  cursor: pointer;
 }
 
 ::placeholder {
@@ -498,6 +500,7 @@ p {
 .testlayer button:hover {
   color: #6a6a6a;
   background-color: white;
+  cursor: pointer;
 }
 
 .testlayer button a {
@@ -665,7 +668,7 @@ p {
 
   .contact-wrap {
     position: relative;
-    top: 5rem;
+    top: 1rem;
     margin: 5rem 1rem;
     height: 40vh;
     width: 96%;
@@ -673,7 +676,7 @@ p {
 
   .contact-top {
     color: #f1f0f0;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 
   form {
@@ -704,6 +707,8 @@ p {
   }
 }
 
+/* !HANDY */
+
 /* Handy  IPhone 11PRO*/
 @media only screen and (max-width: 375px) {
   body {
@@ -713,7 +718,7 @@ p {
   }
 
   h2 {
-    font-size: 2.1rem;
+    font-size: 2rem !important;
   }
 
   h3 {
@@ -898,7 +903,7 @@ p {
   .contact-top {
     margin-top: 1rem;
     position: relative;
-    bottom: 4rem;
+    bottom: 5rem;
   }
 
   .contact-top h2 {
@@ -907,7 +912,7 @@ p {
 
   form {
     position: relative;
-    bottom: 6rem;
+    bottom: 4rem;
   }
 
   .submit {
