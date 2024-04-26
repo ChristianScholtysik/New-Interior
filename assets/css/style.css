@@ -322,7 +322,9 @@ nav {
   width: 100%;
   height: 70vh;
   background-repeat: no-repeat;
+  /* background-size: contain; */
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   margin: 6rem 0 0 0;
@@ -498,6 +500,13 @@ p {
   background-color: white;
 }
 
+.testlayer button a {
+  color: #f1f0f0;
+}
+.testlayer button a:hover {
+  color: #3a4f52;
+}
+
 .test-wrap {
   display: flex;
   margin: 0 10rem;
@@ -633,6 +642,7 @@ p {
     width: 24vw;
     padding: 1rem;
   }
+
   .test-wrap {
     display: flex;
     flex-direction: column;
@@ -647,16 +657,18 @@ p {
   /* Contact */
 
   .contact {
-    height: 80vh;
-    width: 100%;
-    margin: 2rem 0 0 0;
-    background-repeat: no-repeat;
+    background-image: url(../img/footer2.png);
+    background-position: center;
+    height: 55vh;
+    margin: 5rem 0 0 0;
   }
 
   .contact-wrap {
-    margin: 1rem 1rem;
-    height: 50vh;
-    width: 100%;
+    position: relative;
+    top: 5rem;
+    margin: 5rem 1rem;
+    height: 40vh;
+    width: 96%;
   }
 
   .contact-top {
@@ -681,11 +693,240 @@ p {
     border: solid #f1f0f0 2px;
     background: none;
   }
+  .submit:hover {
+    width: 21vw;
+  }
 
   /* Footer */
 
   footer p {
     padding: 1.5rem 1rem;
+  }
+}
+
+/* Handy  IPhone 11PRO*/
+@media only screen and (max-width: 375px) {
+  body {
+    margin: 0.2rem 0.2rem;
+
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+  }
+
+  .btn-view {
+    padding: 0.7rem 0.4rem;
+    position: relative;
+    bottom: 1.7rem;
+  }
+
+  /* header */
+  header {
+    height: 72vh;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Navbar */
+  nav {
+    padding: 1.2rem 1.8rem;
+  }
+
+  /* HERO */
+
+  .hero {
+    height: 80vh;
+    color: white;
+    display: flex;
+  }
+
+  .hero h1 {
+    font-size: 2.7rem;
+    font-weight: 50;
+    position: relative;
+    bottom: 7.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    position: relative;
+    bottom: 7rem;
+  }
+  /* Our latest Works */
+
+  .works {
+    margin: 2.1rem 1rem;
+  }
+  .gallery {
+    margin: 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .row {
+    gap: 1.5rem;
+    flex-direction: column;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    height: 25vh;
+  }
+
+  .container {
+    width: 90vw;
+  }
+
+  /* Service */
+  .service {
+    height: 105vh;
+  }
+
+  .layer-frame {
+    margin: 3rem 0rem;
+    height: 90vh;
+    width: 100vw;
+  }
+
+  .layer-top {
+    gap: 0.7rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .icons {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .icon_solo {
+    height: 22vh;
+  }
+
+  .icons img {
+    width: 15%;
+  }
+  .icons h3 {
+    margin-bottom: 0.5rem;
+  }
+  .icons p {
+    font-size: 0.8rem;
+  }
+
+  .blog1 {
+    margin: 1rem 1rem;
+  }
+
+  .gallery-blog {
+    flex-direction: column;
+    margin: 1rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .gallery-blog img {
+    width: 90vw;
+  }
+
+  /* Testimonials */
+  .bg-test {
+    margin-top: 8rem;
+    height: 85vh;
+    background-position: center;
+  }
+
+  .testlayer {
+    height: 75vh;
+    padding: 0.8rem 0.8rem;
+    margin: 1rem 0rem;
+  }
+  .testlayer p {
+    margin-bottom: 5rem;
+    font-size: 2.2rem;
+    font-family: "AlegSans";
+  }
+  .testlayer button {
+    width: 54vw;
+    padding: 1rem;
+  }
+  .test-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+
+    gap: 2.5rem;
+  }
+
+  .test-top {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .personwrap {
+    width: 80vw;
+    line-height: 170%;
+  }
+  .bold {
+    line-height: 1em;
+  }
+
+  /* Contact */
+
+  .contact {
+    height: 82vh;
+    margin: 5rem 0 0 0;
+  }
+
+  .contact-wrap {
+    position: relative;
+    top: 5rem;
+    margin: 5rem 0rem;
+    height: 75vh;
+    width: 99vw;
+  }
+
+  .contact-top {
+    margin-top: 1rem;
+    position: relative;
+    bottom: 4rem;
+  }
+
+  .contact-top h2 {
+    margin-bottom: 1rem;
+  }
+
+  form {
+    position: relative;
+    bottom: 6rem;
+  }
+
+  .submit {
+    width: 32vw;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+  .submit:hover {
+    width: 32vw;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+  }
+
+  /* Footer */
+
+  footer p {
+    padding: 1.5rem 1rem;
+    width: 40vw;
+    line-height: 180%;
   }
 }
 
